@@ -2,10 +2,10 @@
 
 const section = document.querySelector('.images');
 const imgList = [
-	"/img/gallery/port04.jpg",
-	"/img/gallery/port03.jpg",
-	"/img/gallery/port02.jpg",
-	"/img/gallery/port01.jpg",
+	"img/gallery/port04.jpg",
+	"img/gallery/port03.jpg",
+	"img/gallery/port02.jpg",
+	"img/gallery/port01.jpg",
 	// "/img/gallery/DSC_0703-min.jpg",
 	// "/img/gallery/DSC_0704-min.jpg",
 	// "/img/gallery/DSC_0705-min.jpg",
@@ -24,10 +24,10 @@ const imgList = [
 	// "/img/gallery/DSC_0721-min.jpg",
 	// "/img/gallery/DSC_0722-min.jpg",
 	// "/img/gallery/DSC_0723-min.jpg",
-	"/img/gallery/port04.jpg",
-	"/img/gallery/port01.jpg",
-	"/img/gallery/port02.jpg",
-	"/img/gallery/port03.jpg"
+	"img/gallery/port04.jpg",
+	"img/gallery/port01.jpg",
+	"img/gallery/port02.jpg",
+	"img/gallery/port03.jpg"
 ]
 
 
