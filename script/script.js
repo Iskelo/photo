@@ -2,6 +2,7 @@
 
 const section = document.querySelector('.images');
 const imgList = [
+	"/img/gallery/port04.jpg",
 	"/img/gallery/port03.jpg",
 	"/img/gallery/port02.jpg",
 	"/img/gallery/port01.jpg",
