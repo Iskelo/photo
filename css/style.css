@@ -317,10 +317,11 @@ label:hover {
 	gap: 20px;
 	background-color: #f57e36;
 	position: fixed;
-	width: 250px;
+	/* max-width: 250px; */
 	min-height: 150px;
-	bottom: 0;
-	left: 20px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: #fff;
 	margin-bottom: 20px;
 	padding: 20px;
