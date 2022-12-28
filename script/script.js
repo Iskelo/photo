@@ -195,7 +195,8 @@ choice()
 let myModal = document.querySelectorAll(".modal"),
 	images = document.querySelectorAll(".img"),
 	modalImg = document.getElementById('img01'),
-	iconNew = document.querySelectorAll('.icon');
+	iconNew = document.querySelectorAll('.icon'),
+	caption = document.querySelector('.caption');
 
 function openModal() {
 	iconNew.forEach((item, i) => {
@@ -206,6 +207,9 @@ function openModal() {
 			})
 
 			modalImg.src = images[iconIndex].src;
+			caption.innerHTML = modalImg.src.slice(modalImg.src.lastIndexOf('/') + 1, modalImg.src.lastIndexOf('.'))
+			// item.src.slice(item.src.lastIndexOf('/') + 1, item.src.lastIndexOf('.'))
+
 
 		})
 	})

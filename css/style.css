@@ -351,7 +351,7 @@ label:hover {
 	margin-top: 20px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #303030;
+	background-color: #0a7c06;
 	color: #fff;
 	text-transform: uppercase;
 	width: 80px;
@@ -359,4 +359,25 @@ label:hover {
 	cursor: pointer;
 	font-weight: 700;
 
+}
+
+.res__btn {
+	display: block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #af1717;
+	color: #fff;
+	text-transform: uppercase;
+	width: 80px;
+	height: 30px;
+	cursor: pointer;
+	font-weight: 700;
+}
+
+.caption {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	padding-bottom: 10px;
 }
