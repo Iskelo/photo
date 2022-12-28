@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Inka Photo</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="..." type="image/png">
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="myModal">
+			<div class="modal__dialog">
+				<div class="modal__content">
+					<form action="#">
+						<div class="modal__title">Enter Password</div>
+						<input required placeholder="****" type="text" name="password" class="modal__input">
+					</form>
+					<button class="btn btn_dark btn_min">Enter</button>
+				</div>
+			</div>
+		</div>
+		<header class="header">
+			<div class='container'>
+				<div class="header__body">
+					<a href="#" class="header__logo">
+						<img class="logo" src="img/logo.png" alt="">
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="calculator">
+			<div class="calc__dialog">
+				<div class="calc__content">
+					<h1 class="calc__count calc__text">Count: 0</h1>
+					<h1 class="calc__text">Price: 250 zł</h1>
+					<button class="calc__btn btn">Enter</button>
+					<button class="res__btn btn">Reset</button>
+				</div>
+			</div>
+		</div>
+
+		<section class="gallery">
+			<div class="images">
+
+			</div>
+			<!-- <div class="gallery-item">
+				<img class="img" src="/img/gallery/port01.jpg" alt="img">
+				<div class="icon" id="iconNew"><span class="material-symbols-outlined">
+						open_in_full
+					</span></div>
+			</div>
+
+			<div class="gallery-item">
+				<img class="img" src="/img/gallery/port02.jpg" alt="img">
+				<div class="icon"><span class="material-symbols-outlined">
+						open_in_full
+					</span></div>
+			</div>
+
+			<div class="gallery-item">
+				<img class="img" src="/img/gallery/port03.jpg" alt="img">
+				<div class="icon"><span class="material-symbols-outlined">
+						open_in_full
+					</span></div>
+			</div> -->
+
+
+			<div class="modal">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="img01">
+				<div class="caption"></div>
+			</div>
+
+			<button id="addPhoto" class="addBtn hide">Add Photos</button>
+			<div class="downloads" id="modal">
+				<div id="dropbox">
+					<span class="close">&times</span>
+					<input type="file" id="input" multiple style="display:none" onchange="handleFiles(this.files)">
+					<p>Drag and drop files or </p>
+					<label for="input">Select some files</label>
+				</div>
+			</div>
+		</section>
+
+		<div class="list">
+			<div class="count" id="countList"></div>
+			<div class="sum"></div>
+			<span id="copy-quote" class="material-symbols-outlined">
+				content_copy
+			</span>
+		</div>
+	</div>
+	<script src="script/script.js"></script>
+</body>
+
+</html>
